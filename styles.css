@@ -1,0 +1,103 @@
+/******* LANDING PAGE STYLES *******/
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 42px;
+}
+p {
+    text-align: left;
+   font-weight: 400;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.bg-nav {
+    background: #EBF4FF 0% 0% no-repeat padding-box;
+}
+.contact-us-btn {
+    background: #2979EC 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 25px;
+    text-align: center;
+    font: normal normal bold 15px/20px "Open Sans";
+    letter-spacing: 0px;
+}
+.contact-btn-y {
+    background: #FFBE3C 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    padding: 10px 25px;
+    text-align: center;
+    font: normal normal bold 15px/20px "Open Sans";
+    letter-spacing: 0px;
+    color: #0A459E;
+}
+.close-btn {
+    background: #00000036;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 25px;
+    text-align: center;
+    font: normal normal bold 15px/20px "Open Sans";
+    letter-spacing: 0px;
+}
+.contact-btn-y:hover {
+    background: #0A459E 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    color: #FFBE3C;
+    border: 2px solid #FFBE3C;
+}
+.contact-us-btn:hover {
+    background-color: #fff;
+    color: #2979EC;
+    border: 2px solid #2979EC;
+}
+.close-btn:hover {
+    background-color: #ffffff;
+    color: #00000036;
+    border: 2px solid #00000036;
+}
+.swal2-confirm.swal2-styled {
+    background-color: #2979EC;
+}
+#hero-section {
+    padding: 60px 20px;
+    background: #EBF4FF 0% 0% no-repeat padding-box;
+    position: relative;
+    display: flex;
+}
+#experts-section {
+    padding: 60px 20px;
+}
+#best-section {
+    padding: 0px 20px 60px 20px;
+}
+#contact-section {
+    padding: 80px 20px;
+    background-color: #0A459E;
+    color: #fff;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+@media (max-width: 768px) {
+    body, p {
+        text-align: center!important;
+    }
+    #hero-section, #experts-section, #contact-section {
+        padding: 40px 15px;
+    }
+    #best-section {
+        padding: 0px 15px 40px 15px;
+    }
+}
